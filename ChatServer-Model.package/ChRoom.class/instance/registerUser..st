@@ -1,5 +1,7 @@
 users
 registerUser: aUser
+	(self registeredUsers includes: aUser) ifTrue: [ ^ self ].
+
 	self registeredUsers add: aUser.
 	self messages do:[:e | aUser sendMessage: e].
 	

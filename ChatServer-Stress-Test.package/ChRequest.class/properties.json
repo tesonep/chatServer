@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ChatServer-Stress-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"time",
+		"timeToRun"
+	],
+	"name" : "ChRequest",
+	"type" : "normal"
+}

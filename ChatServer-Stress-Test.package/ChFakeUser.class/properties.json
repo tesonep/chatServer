@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ChatServer-Stress-Test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"username",
+		"firstName",
+		"lastName",
+		"rooms",
+		"logger"
+	],
+	"name" : "ChFakeUser",
+	"type" : "normal"
+}
