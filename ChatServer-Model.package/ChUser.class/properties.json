@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ChatServer-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Users"
+	],
+	"instvars" : [
+		"username",
+		"password",
+		"firstName",
+		"lastName",
+		"pendingMessages"
+	],
+	"name" : "ChUser",
+	"type" : "normal"
+}
