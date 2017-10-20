@@ -17,3 +17,16 @@ methodsToV2
 	
 	patch addOperation: (APAddMethod fromSource: 'from
 	^ nil' selector: #from onClassNamed: #ChInfoMessage).
+	
+	patch addOperation: ((APAddMethod fromSource: 'from: aUser to: aRoom text: aText
+	^ ChUserMessage new
+		from: aUser;
+		room: aRoom;
+		text: aText;
+		yourself.' selector: #from:to:text: onClassNamed: #ChMessage) isMeta: true; yourself).
+	
+	patch addOperation: ((APAddMethod fromSource: 'in: aRoom text: aText
+	^ ChInfoMessage new
+		room: aRoom;
+		text: aText;
+		yourself.' selector: #in:text: onClassNamed: #ChMessage) isMeta: true; yourself).	

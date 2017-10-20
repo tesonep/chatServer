@@ -1,4 +1,4 @@
-instance creation
+Unclassified
 from: aUser to: aRoom text: aText
 	^ self new
 		from: aUser;
