@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "PabloTesone 10/20/2017 09:52",
+	"super" : "Object",
+	"category" : "ChatServer-Server",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"patch",
+		"loader"
+	],
+	"name" : "ChatUpdate",
+	"type" : "normal"
+}

@@ -15,5 +15,8 @@ start
 		POST: '/room/<name>/<username>' -> [ :req | self postUserFromRoom: req. ];
 
 		GET: '/rooms' -> [ :req | self getRooms: req. ]; output: #json;
+		
+		GET: '/updateV1ToV2' -> [ :req | ChatUpdate new updateV1ToV2. ];
+		GET: '/updateV2ToV1' -> [ :req | ChatUpdate new updateV2ToV1. ];
 	
 		start.		
