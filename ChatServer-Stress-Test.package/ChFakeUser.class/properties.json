@@ -10,7 +10,8 @@
 		"firstName",
 		"lastName",
 		"rooms",
-		"logger"
+		"logger",
+		"client"
 	],
 	"name" : "ChFakeUser",
 	"type" : "normal"

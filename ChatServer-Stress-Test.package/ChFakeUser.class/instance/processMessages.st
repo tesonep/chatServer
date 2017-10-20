@@ -12,3 +12,5 @@ processMessages
 	].
 
 	self receiveMessages.
+	
+	self client close.
