@@ -18,5 +18,11 @@ start
 		
 		GET: '/updateV1ToV2' -> [ :req | ChatUpdate new updateV1ToV2. ];
 		GET: '/updateV2ToV1' -> [ :req | ChatUpdate new updateV2ToV1. ];
-	
+
+		GET: '/updateKernel' -> [ :req | ChatUpdate new updateV1ToV2. ];
+		GET: '/revertUpdateKernel' -> [ :req | ChatUpdate new updateV2ToV1. ];
+
+		GET: '/updateAtomicProcess' -> [ :req | ChatUpdate new updateV1ToV2. ];
+		GET: '/revertUpdateAtomicProcess' -> [ :req | ChatUpdate new updateV2ToV1. ];
+
 		start.		

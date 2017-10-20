@@ -1,4 +1,4 @@
-as yet unclassified
+updates
 updateV2ToV1
 	patch := AtomicPatch new.
 	patch operations add:(APRemoveClass fromClassDefinition: self chInfoMessageDefinitionV2).	
