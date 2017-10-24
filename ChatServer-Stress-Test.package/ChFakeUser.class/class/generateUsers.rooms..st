@@ -2,7 +2,7 @@ as yet unclassified
 generateUsers: numberOfUsers rooms: numberOfRooms
 	| users roomsPerUser rnd rooms logger |
 	users := Set new: numberOfUsers.
-	roomsPerUser := numberOfRooms // 2.
+	roomsPerUser := numberOfRooms.
 	rnd := Random new.
 	logger := ChRequestLogger new.
 	rooms := (1 to: numberOfRooms) collect: [ :idx | 'room' , idx asString ].
